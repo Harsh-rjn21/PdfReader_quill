@@ -48,7 +48,7 @@ export function constructMetadata({
       creator: "@joshtriedcoding"
     },
     icons,
-    metadataBase: new URL('https://pdf-reader-quill.vercel.app'),
+    metadataBase: new URL(absoluteUrl("")),
     themeColor: '#FFF',
     ...(noIndex && {
       robots: {
